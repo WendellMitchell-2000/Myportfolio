@@ -92,11 +92,13 @@
   .image {      
     
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 45%;
-  height: 50%;
+  top: 25%;
+  right: 180px;
+  width: 30%;
+  height: 60%;
+  
   background: transparent;
+
   transition: 3s;
   background: url('/Myportfolio-main/PP.jpg') no-repeat;
       background-size: cover;
