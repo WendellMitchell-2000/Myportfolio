@@ -5,6 +5,7 @@
       font-family: 'Trebuchet MS','Lucida Sans Unicode' ,'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       background: #fdcc04;
       scroll-behavior: smooth;
+     
       
   }
   nav {
@@ -15,6 +16,7 @@
     background-color: rgba(0, 0, 0, .2);
     align-items: center;
     position: fixed;
+    
     
   /*padding: — shorthand for setting top, right, bottom, and left padding.*/
     /*0rem — means 0 padding on top and bottom.*/
@@ -36,9 +38,11 @@
   justify-content: space-between;
   padding: 0 3rem;
   background-color: transparent;
+  
   }
   .List {
     background-color: transparent;
+    
   }
   .List a {
     background-color: transparent;
@@ -62,11 +66,11 @@
   .column-left h1 {
   font-size: 2.6rem;
   font-weight: 100;
-  line-height: 6.8;
+  line-height: 7.3;
     font-family: "Anton", sans-serif;
     font-weight: 100;
     font-style: normal;
-    padding: 0%;
+    
   }
   .column-left p {
     margin-bottom: 3rem;
@@ -82,11 +86,32 @@
       flex-direction: row;
       width: 100%;
       margin-block: 0px;
+      
   }
-  .PP-image {
-  max-width: 200%;
-  height: 400px;                      
+
+  .image {      
+    
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 50%;
+  background: transparent;
+  transition: 3s;
+  background: url('/Myportfolio-main/PP.jpg') no-repeat;
+      background-size: cover;
+  background-position: center;
+   
+
+
   }
+
+  .image:hover {
+    background: black;
+    opacity: .8;
+  
+  }
+
 
 
   .logo {
@@ -95,12 +120,10 @@
 
   }
 
-  .image{
-  max-width: 30%;
+
 
   /* ----------------------------------HOME TEXT------------------------------------------- */
 
-  }
   .Description
   {
   align-items: Center;
@@ -172,7 +195,27 @@
   z-index: 1;
   overflow: hidden;
   text-decoration: none;
+  transition: .5s;
+
   } 
+
+.botton .btn:nth-child(2) {
+    background: transparent;
+    color: black;
+
+}
+
+.botton .btn:hover {
+
+  color: white;
+}
+
+
+
+
+.botton .btn:nth-child(2):hover {
+    color: white;
+ }
 
 
   .botton .btn::before {
