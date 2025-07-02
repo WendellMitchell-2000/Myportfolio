@@ -290,30 +290,25 @@
 
 /* SECOND PAGES */
 
-  .row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
-  }
+ 
+  
 
   .about-col-1{
    
     border: 10px solid #fff;
     display: inline-block; 
     position: absolute;
-    padding: 0;
-    margin: 0;
-    margin-inline-start: 55rem;
+    margin-inline-start: 90rem;
+
   
 
-    
 
   }
   
   .about-col-1 img{
  
-
+ height: 600px;
+ width: 450px;
 
  
     
